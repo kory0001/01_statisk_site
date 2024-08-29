@@ -1,0 +1,162 @@
+@font-face {
+  font-family: agrandir;
+  src: url(fonts/Agrandir.ttf);
+}
+
+@font-face {
+  font-family: sainte colombe;
+  src: url(fonts/Sainte\ Colombe\ Light.ttf);
+}
+
+/********************* FORSIDE/INDEX ************************/
+.index_display {
+  font-family: agrandir;
+  font-size: 10rem;
+  color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.index_tekst {
+  margin-top: -60%;
+}
+
+.visit_link {
+  font-family: agrandir;
+  font-size: 2rem;
+  color: white;
+  transition: color 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.visit_link:hover {
+  color: #940404;
+}
+
+.visit_container {
+  margin-top: -8%;
+  margin-left: 3%;
+}
+
+/********************* KATEGORI ************************/
+.grid_kategori a {
+  text-decoration: none;
+}
+
+.grid_kategori svg {
+  margin-top: 50%;
+  margin-left: -50%;
+}
+.grid_kategori p {
+  margin-top: -5%;
+  margin-bottom: 5%;
+  font-style: italic;
+}
+
+.grid_kategori h1 {
+  font-size: 3rem;
+  font-family: agrandir;
+  margin-left: 3%;
+}
+hr {
+  color: black;
+}
+
+/********************* PRODUKTLISTE ************************/
+
+h3 {
+  font-family: agrandir;
+  margin-top: 1%;
+  color: black;
+}
+
+.p_beskrivelse {
+  margin-top: -3%;
+  margin-left: 0;
+  font-size: 0.9rem;
+  color: #323232;
+  font-style: italic;
+}
+
+.produkt_link {
+  text-decoration: none;
+}
+
+.pris {
+  margin-left: 0;
+  color: #940404;
+  margin-top: 0;
+  margin-bottom: 15%;
+  font-size: 0.8rem;
+  font-family: agrandir;
+}
+
+/********************* PRODUKTSIDEN ************************/
+
+.grid_singleview h4 {
+  font-family: sainte colombe;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-left: 3%;
+  margin-top: -2%;
+}
+
+.grid_singleview ul {
+  font-family: sainte colombe;
+}
+
+.grid_singleview li {
+  padding: 0.5%;
+}
+.button_container {
+  text-align: left;
+}
+
+.buy_now {
+  background-color: #940404;
+  color: white;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: agrandir;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.buy_now:hover {
+  background-color: black;
+  transform: scale(1.05);
+}
+
+.buy_now:active {
+  transform: scale(0.95);
+}
+
+/********************* GENERELT ************************/
+.title {
+  /*Titlen på de forskellige undersider*/
+  font-size: 3rem;
+  font-family: agrandir;
+  margin-left: 4%;
+}
+.p_intro {
+  /*Den lille tekst under titlen, på de forskellige undersider*/
+  margin-left: 4%;
+  margin-top: -2.5%;
+  margin-bottom: 5%;
+  font-style: italic;
+}
+
+h2 {
+  font-family: agrandir;
+  text-decoration: none;
+  color: black;
+  margin-left: 3%;
+  font-weight: normal;
+}
+
+p {
+  font-family: sainte colombe;
+  margin-left: 3%;
+}

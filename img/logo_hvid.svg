@@ -1,0 +1,20 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="30" cy="30" r="28.5" stroke="white" stroke-opacity="0.933333" stroke-width="3"/>
+<line x1="30.5" x2="30.5" y2="60" stroke="white" stroke-opacity="0.933333"/>
+<line x1="18.5381" y1="57.7413" x2="41.4991" y2="2.3085" stroke="white" stroke-opacity="0.933333"/>
+<line x1="18.9815" y1="2.09235" x2="41.9425" y2="57.5251" stroke="white" stroke-opacity="0.933333"/>
+<line y1="29.5" x2="60" y2="29.5" stroke="white" stroke-opacity="0.933333"/>
+<line y1="29.5" x2="60" y2="29.5" stroke="white" stroke-opacity="0.933333"/>
+<line x1="2.09235" y1="41.0185" x2="57.5251" y2="18.0575" stroke="white" stroke-opacity="0.933333"/>
+<line x1="2.47503" y1="18.0576" x2="57.9078" y2="41.0186" stroke="white" stroke-opacity="0.933333"/>
+<line x1="8.43356" y1="50.8598" x2="50.86" y2="8.43342" stroke="white" stroke-opacity="0.933333"/>
+<line x1="9.14066" y1="8.43307" x2="51.5671" y2="50.8595" stroke="white" stroke-opacity="0.933333"/>
+<rect x="29.5" y="30" width="0.5" height="0.5" fill="white" fill-opacity="0.933333"/>
+<rect x="29.625" y="30.125" width="0.25" height="0.25" stroke="white" stroke-opacity="0.933333" stroke-width="0.25"/>
+<rect x="29" y="30.5" width="0.5" height="0.5" fill="white" fill-opacity="0.933333"/>
+<rect x="29.125" y="30.625" width="0.25" height="0.25" stroke="white" stroke-opacity="0.933333" stroke-width="0.25"/>
+<rect x="29.5" y="30.5" width="0.5" height="0.5" fill="white" fill-opacity="0.933333"/>
+<rect x="29.625" y="30.625" width="0.25" height="0.25" stroke="white" stroke-opacity="0.933333" stroke-width="0.25"/>
+<rect x="29.5" y="31" width="0.5" height="0.5" fill="white" fill-opacity="0.933333"/>
+<rect x="29.625" y="31.125" width="0.25" height="0.25" stroke="white" stroke-opacity="0.933333" stroke-width="0.25"/>
+</svg>
