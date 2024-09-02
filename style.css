@@ -91,6 +91,57 @@ h3 {
   font-family: agrandir;
 }
 
+/* Styling for sale items */
+.produkt_link.sale {
+  position: relative;
+}
+
+.sale_badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #940404;
+  font-family: agrandir;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+.sale .pris .original_pris {
+  text-decoration: line-through;
+  color: grey;
+  margin-right: 10px;
+}
+
+/* Styling for sold-out items */
+.produkt_link.udsolgt {
+  position: relative;
+  opacity: 0.6; /* Grey out the item */
+  pointer-events: none; /* Disable clicking */
+}
+
+.udsolgt_badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #333;
+  font-family: agrandir;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+.udsolgt_badge_kombi {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  background-color: #333;
+  font-family: agrandir;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
 /********************* PRODUKTSIDEN ************************/
 
 .grid_singleview h4 {
