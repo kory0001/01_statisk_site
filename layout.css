@@ -81,15 +81,17 @@ header nav ul {
 }
 
 /************************** PRODUKTSIDE LAYOUT ***************************/
-.grid_produkter {
+.main_produktliste {
   display: grid;
-  grid-template-columns: 0.1fr 1fr 1fr 1fr 1fr 0.1fr;
-  gap: 2%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /************************** PRODUKT _ SINGLEVIEW LAYOUT ***************************/
 .grid_singleview {
   display: grid;
-  grid-template-columns: 0.01fr 1fr 1fr 0.01fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2%;
 }
