@@ -189,11 +189,10 @@ h3 {
   /*Titlen på de forskellige undersider*/
   font-size: 3rem;
   font-family: agrandir;
-  margin-left: 4%;
+  margin-left: 3%;
 }
 .p_intro {
   /*Den lille tekst under titlen, på de forskellige undersider*/
-  margin-left: 4%;
   margin-top: -2.5%;
   margin-bottom: 5%;
   font-style: italic;

@@ -1,4 +1,4 @@
-fetch("https://kea-alt-del.dk/t7/api/products")
+fetch("https://kea-alt-del.dk/t7/api/products?limit=16")
   .then((res) => res.json())
   .then(showProducts);
 
