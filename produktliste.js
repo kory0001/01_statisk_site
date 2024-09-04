@@ -19,6 +19,16 @@ function showProduct(product) {
   copy.querySelector("img").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
   copy.querySelector("a").href = `produkt.html?id=${product.id}`;
 
+  // udsolgt/sale tilføjes ved if(product.soldout/discount) og så lægges en klasse til
+
+  if (product.sale) {
+    copy.querySelector("article").classList.add("sale_badge");
+  }
+
+  if (product.soldout) {
+    copy.querySelector("article").classList.add("udsolgt_badge");
+  }
+
   if (product)
     //appende
     document.querySelector("main").appendChild(copy);
