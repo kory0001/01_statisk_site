@@ -91,13 +91,17 @@ h3 {
   font-family: agrandir;
 }
 
-/* Styling for sale items */
-.produkt_link.sale {
+.produkt_container {
   position: relative;
 }
 
+.displaynone {
+  display: none;
+}
+
+/******************* Styling for sale items **********************/
 .sale_badge {
-  /* position: absolute; */
+  position: absolute;
   top: 10px;
   right: 10px;
   background-color: #940404;
@@ -107,21 +111,24 @@ h3 {
   font-size: 0.9em;
 }
 
-.sale .pris .original_pris {
+.line_through {
   text-decoration: line-through;
   color: grey;
   margin-right: 10px;
 }
-
-/* Styling for sold-out items */
-.produkt_link.udsolgt {
-  position: relative;
-  opacity: 0.6; /* Grey out the item */
-  pointer-events: none; /* Disable clicking */
+.ny_pris {
+  margin-left: 0;
+  color: #940404;
+  margin-top: 0;
+  margin-bottom: 15%;
+  font-size: 0.8rem;
+  font-family: agrandir;
+  margin-top: -10%;
 }
 
+/*************** Styling for sold-out items *****************/
 .udsolgt_badge {
-  /* position: absolute; */
+  position: absolute;
   top: 10px;
   right: 10px;
   background-color: #333;
@@ -129,6 +136,11 @@ h3 {
   color: white;
   padding: 5px 10px;
   font-size: 0.9em;
+}
+.opacity {
+  position: relative;
+  opacity: 0.6; /* Grey out the item */
+  pointer-events: none; /* Disable clicking */
 }
 
 .udsolgt_badge_kombi {

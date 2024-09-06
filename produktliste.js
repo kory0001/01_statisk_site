@@ -29,23 +29,31 @@ function showProduct(product) {
   copy.querySelector("a").href = `produkt.html?id=${product.id}`;
 
   // udsolgt/sale tilføjes ved if(product.soldout/discount) og så lægges en klasse til
-
-  if (product.sale) {
-    copy.querySelector("article").classList.add("sale_badge");
+  if (product.discount) {
+    copy.querySelector(".sale_badge").classList.add("sale_badge");
+    copy.querySelector(".ny_pris").textContent = Math.round(product.price - (product.price * product.discount) / 100) + ",-";
+    copy.querySelector(".pris").classList.add("line_through");
+  } else {
+    copy.querySelector(".sale_badge").classList.add("displaynone");
+    copy.querySelector(".udsolgt_badge_kombi").classList.add("displaynone");
   }
 
   if (product.soldout) {
-    copy.querySelector("article").classList.add("udsolgt_badge");
-  }
+    copy.querySelector("article").classList.add("opacity");
 
-  //  if (produkt.soldout) {
-  //    kopi.querySelector("article").classList.add("soldOut");
-  //  }
-  //  if (produkt.discount) {
-  //    kopi.querySelector("article").classList.add("onSale");
-  //    kopi.querySelector(".discounted p span").textContent = Math.round(produkt.price - (produkt.price * produkt.discount) / 100);
-  //    kopi.querySelector(".discounted p+p span").textContent = produkt.discount;
-  //  }
+    // If product is both sold out and discounted
+    if (product.discount) {
+      copy.querySelector(".sale_badge").classList.add("sale_badge");
+      copy.querySelector(".ny_pris").textContent = Math.round(product.price - (product.price * product.discount) / 100) + ",-";
+      copy.querySelector(".udsolgt_badge").classList.add("displaynone");
+      copy.querySelector(".udsolgt_badge_kombi").classList.add("udsolgt_badge_kombi");
+    } else {
+      copy.querySelector(".udsolgt_badge").classList.add("udsolgt_badge");
+    }
+  } else {
+    copy.querySelector(".udsolgt_badge").classList.add("displaynone");
+    copy.querySelector(".udsolgt_badge_kombi").classList.add("displaynone");
+  }
 
   if (product)
     //appende
